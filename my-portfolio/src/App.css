@@ -1,0 +1,45 @@
+.main {
+  width: 111.5rem;
+  height: 305.25rem;
+  background: linear-gradient(180deg, #dad0c5 0%, #fffefe 100%);
+}
+
+.navbar {
+  width: 111.5rem;
+  height: 6.09506rem;
+  flex-shrink: 0;
+  background: #fffefe;
+}
+
+.yelo {
+  display: flex;
+  width: 5.17075rem;
+  height: 2.08975rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 1.5rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.solutions {
+  display: flex;
+  width: 11.21956rem;
+  height: 2.08975rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #5662c6;
+  font-size: 1.5rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.project {
+  width: 77.75rem;
+  height: 51.9375rem;
+  flex-shrink: 0;
+}
