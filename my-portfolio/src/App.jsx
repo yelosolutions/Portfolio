@@ -5,9 +5,10 @@ const App = () => {
     return (
         <div className="main">
             <div className="navbar">
-                <h2 className="yelo">
+                <div className='logo'>
                     Yelo
-                </h2>
+                    <span>Solutions</span>
+                </div>
             </div>
         </div>
     )

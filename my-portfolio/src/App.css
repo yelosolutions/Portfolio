@@ -85,9 +85,16 @@ p {
 }
 
 .main {
-  @apply w-full h-full bg-gradient-to-b from-stone-300 to-white;
+  @apply w-full h-[330rem] bg-gradient-to-b from-stone-300 to-white;
 }
 
 .navbar {
-  @apply w-full;
+  @apply flex flex-col w-full h-20 bg-white;
+}
+
+.logo {
+  @apply mt-5 ml-10 text-2xl font-extrabold;
+}
+.logo span {
+  @apply text-purple-900;
 }
