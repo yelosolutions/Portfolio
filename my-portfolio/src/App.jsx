@@ -4,11 +4,11 @@ import './App.css'
 const App = () => {
     return (
         <div className="main">
-            <nav className="navbar">
-                <div className="yelo">
+            <div className="navbar">
+                <h2 className="yelo">
                     Yelo
-                </div>
-            </nav>
+                </h2>
+            </div>
         </div>
     )
 }
