@@ -4,9 +4,12 @@ import Navbar from './navbar'
 
 const App = () => {
     return (
-        <div className="main">
-            <Navbar/>
-            <div className="pt-20">
+        <main>
+            <div className="main">
+                <div className="gradient" />
+            </div>
+            <div className="app">
+                <Navbar/>
                 <section id="hero" className="h-screen">
                     <h2>Hero</h2>
                 </section>
@@ -20,7 +23,7 @@ const App = () => {
                     <h2>Contact</h2>
                 </section>
             </div>
-        </div>
+        </main>
     )
 }
 

@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 const Navbar = () => {
     return (
@@ -14,23 +16,16 @@ const Navbar = () => {
                 <a href="#contact">Contacts</a>
             </div>
             <div className="media">
-                <ul>
-                    <li>
-                        <a href="#"><i className='fab fa-facebook'></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i className='fab fa-twitter'></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i className='fab fa-instagram'></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i className='fab fa-github'></i></a>
-                    </li>
-                    
-                </ul>
+                <a href="#"><FontAwesomeIcon
+                    color='gray'
+                    icon={faGithub} /></a>
+                <a href="#"><FontAwesomeIcon
+                    color='#00aced'
+                    icon={faTwitter} /></a>
+                <a href="#"><FontAwesomeIcon
+                    color='#007bb6'
+                    icon={faLinkedinIn} /></a>
             </div>
-                
         </nav>
     )
 }
