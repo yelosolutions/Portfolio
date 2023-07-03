@@ -1,7 +1,9 @@
-import React from 'react'
-import './App.css'
-import Navbar from './navbar'
-import Projects from './projects'
+import React from 'react';
+import './App.css';
+import Navbar from './navbar';
+import Projects from './projects';
+import About from './about';
+import Contact from './contact';
 
 const App = () => {
     return (
@@ -15,13 +17,9 @@ const App = () => {
                 <section id="hero" className="h-screen">
                     <h2 className='section_title'>Hero</h2>
                 </section>
-                <section id="about" className="">
-                    <h2 className='section_title'>About</h2>
-                </section>
+                <About/>
                 <Projects/>
-                <section id="contact" className="h-screen">
-                    <h2 className='section_title'>Contact</h2>
-                </section>
+                <Contact/>
             </div>
             
         </main>

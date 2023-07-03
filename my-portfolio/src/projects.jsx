@@ -7,7 +7,7 @@ const Projects = () => {
             <article className='project'>
                 <img src="../assets/intelli.PNG" alt="" />
                 <h4 className='project_title'>Intellisumm</h4>
-                <p className='project_info'>Intellisumm is an AI article summarizer. 
+                <p className='section_info'>Intellisumm is an AI article summarizer. 
                     It leverages OpenAI’s API through RapidAPIs to provide users with exceptional summarization experience!
                 </p>
             </article>

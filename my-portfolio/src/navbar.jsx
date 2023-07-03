@@ -13,7 +13,7 @@ const Navbar = () => {
                 <a href="#hero">Home</a>
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
-                <a href="#contact">Contacts</a>
+                <a href="#contact">Contact</a>
             </div>
             <div className="media">
                 <a href="#"><FontAwesomeIcon
