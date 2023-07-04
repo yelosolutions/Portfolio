@@ -68,7 +68,7 @@
 /* Tailwind Styles */
 
 .app {
-  @apply relative z-10 flex justify-center items-center flex-col max-w-full mx-auto sm:px-16 px-6;
+  @apply relative z-10 flex justify-center items-center flex-col max-w-full mx-auto mt-24 sm:px-16 px-6;
 }
 
 .navbar {
@@ -76,7 +76,7 @@
 }
 
 .logo {
-  @apply flex-shrink-0 ml-10 text-2xl font-extrabold text-2xl p-0;
+  @apply flex-shrink-0 ml-10 font-extrabold text-2xl p-0;
 }
 .logo span {
   @apply text-[#5662C6];
@@ -89,6 +89,45 @@
   @apply flex flex-shrink-0 p-1 mr-10 space-x-3;
 }
 
+/* Hero section */
+
+.hero {
+  @apply flex w-full gap-24 content-between justify-center h-screen text-center mt-24;
+}
+
+.hero_left {
+  @apply flex flex-col w-fit h-fit;
+}
+
+.profile {
+  @apply block;
+}
+
+.name {
+  @apply flex-shrink-0 font-extrabold text-2xl p-0;
+}
+
+.name span {
+  @apply text-[#5662C6];
+}
+
+.hero_right {
+  @apply rounded-lg text-center max-w-md max-h-80;
+}
+
+.greeting {
+  @apply flex flex-row;
+}
+
+.hero_info {
+  @apply font-satoshi font-semibold text-2xl m-2 whitespace-pre-line;
+}
+
+.indigo_gradient {
+  @apply bg-gradient-to-r from-blue-500 via-indigo-600 to-pink-500 bg-clip-text text-transparent;
+}
+
+/* About section */
 .about {
   @apply flex gap-12 content-between h-screen text-center;
 }
@@ -98,7 +137,7 @@
 }
 
 .about_right {
-  @apply rounded-lg text-center max-w-md max-h-80;
+  @apply text-center max-w-md max-h-80;
 }
 
 .project {

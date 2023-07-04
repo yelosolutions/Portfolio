@@ -18,7 +18,8 @@ const Navbar = () => {
             <div className="media">
                 <a href="#"><FontAwesomeIcon
                     color='gray'
-                    icon={faGithub} /></a>
+                    icon={faGithub} />
+                </a>
                 <a href="#"><FontAwesomeIcon
                     color='#00aced'
                     icon={faTwitter} /></a>
