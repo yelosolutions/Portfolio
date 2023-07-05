@@ -71,6 +71,7 @@
   @apply relative z-10 flex justify-center items-center flex-col max-w-full mx-0 mt-0 sm:px-16 px-6;
 }
 
+/* Navbar */
 .navbar {
   @apply flex justify-between mx-auto items-center fixed top-0 left-0 w-full p-4 bg-white;
 }
@@ -90,7 +91,6 @@
 }
 
 /* Hero section */
-
 .hero {
   @apply flex w-full gap-24 content-between items-center justify-center h-screen text-center;
 }
@@ -140,8 +140,9 @@
   @apply text-center max-w-md max-h-80;
 }
 
+/* Projects section */
 .project {
-  @apply flex flex-col max-w-md rounded-lg bg-indigo-200 justify-center content-center text-center text-black shadow-md;
+  @apply flex flex-col max-w-md rounded-lg bg-indigo-50 justify-center content-center text-center text-black shadow-md  hover:shadow-none;
 }
 
 .project img {
@@ -160,24 +161,33 @@
   @apply font-satoshi font-medium text-xl m-2 whitespace-pre-line;
 }
 
+/* Contact section */
 .contact {
-  @apply flex gap-12 content-between h-screen text-center;
+  @apply flex flex-row items-center justify-between gap-28 py-10 font-satoshi;
 }
 
 .contact_img {
-  @apply block w-[30rem] h-[30rem];
+  @apply w-full h-full;
 }
 
 .form {
   @apply flex flex-col gap-8 content-between;
 }
 
-.form_control {
-  @apply flex flex-row w-full content-between gap-6 font-satoshi font-normal text-base text-center;
+.label_style {
+  @apply block mb-2 font-semibold;
+}
+
+.input_style {
+  @apply w-full border border-gray-300 rounded px-4 py-2 mb-2;
+}
+
+.text_area {
+  @apply w-full border border-gray-300 rounded px-4 py-2 mb-4;
 }
 
 .btn {
-  @apply bg-indigo-950 text-white font-satoshi font-medium text-base p-1 rounded-md shadow-sm w-24;
+  @apply bg-indigo-900 hover:bg-indigo-600 text-white font-semibold py-2 px-4 rounded;
 }
 
 /* .main {
