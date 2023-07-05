@@ -12,9 +12,9 @@ const About = () => {
                 <div className="about_right">
                     <p className='section_info'>
                     I am a full-stack Web Developer with a passion for AI, Data Analysis and Data Visualization.
-                    Apart from developing amazing software, I like to draw or paint. 
-                    Sometimes I feel like if I was not into Web Development I would probably be an artist.
-                    When I am not doing any of the above, I do ponder about how and why the universe is as it is, 
+                    Apart from developing amazing software, I like to draw and paint. 
+                    Sometimes I feel like if I was not into Web Development I would have probably been an artist.
+                    Whenever I am not doing any of the above, I usually ponder about how and why the universe is as it is, 
                     call it philosophical inquiry. I end up stargazing.
                     ”I am something of a philosopher myself!”
                     *insert Willem Dafoe’s voice(from spiderman)*
