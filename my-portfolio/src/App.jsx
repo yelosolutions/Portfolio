@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Navbar from './navbar';
-import Projects from './projects';
-import About from './about';
-import Contact from './contact';
-import Hero from './hero';
+import Navbar from './components/navbar';
+import Projects from './components/projects';
+import About from './components/about';
+import Contact from './components/contact';
+import Hero from './components/hero';
 
 const App = () => {
     return (
