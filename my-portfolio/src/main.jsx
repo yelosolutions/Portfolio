@@ -1,10 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 //how to use redux toolkit(need to: fetch data from API)
 //provider will service 'app' with store(part of global store)
-import { Provider } from 'react-redux'
+import { Provider } from 'react-redux';
+import App from './App';
+import { store }  from './services/store.js';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,4 +13,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
     </Provider>
   </React.StrictMode>,
-)
+);
